@@ -1,0 +1,51 @@
+00:00:02.693997 VirtualBox VM 6.1.38 r153438 win.amd64 (Sep  1 2022 14:20:23) release log
+00:00:02.694002 Log opened 2022-10-10T19:09:03.809225800Z
+00:00:02.694002 Build Type: release
+00:00:02.694005 OS Product: Windows 10
+00:00:02.694006 OS Release: 10.0.19044
+00:00:02.694006 OS Service Pack: 
+00:00:02.765267 DMI Product Name: GF63 Thin 10SC
+00:00:02.768577 DMI Product Version: REV:1.0
+00:00:02.768582 Firmware type: UEFI
+00:00:02.768800 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:02.768811 Host RAM: 8013MB (7.8GB) total, 2758MB (2.6GB) available
+00:00:02.768812 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe
+00:00:02.768813 Process ID: 23360
+00:00:02.768813 Package type: WINDOWS_64BITS_GENERIC
+00:00:02.769707 Installed Extension Packs:
+00:00:02.769719   None installed!
+00:00:02.770159 Console: Machine state changed to 'Starting'
+00:00:02.770243 Qt version: 5.6.2
+00:00:02.771748 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.793351 GUI: Machine-window #0 deactivated
+00:00:02.793375 GUI: Releasing mouse on focus out
+00:00:02.807914 GUI: Machine-view #0 unfocused, reason=3
+00:00:02.858967 GUI: Machine-window #0 activated
+00:00:02.859005 GUI: Machine-view #0 focused, reason=3
+00:00:02.931832 SUP: seg #0: R   0x00000000 LB 0x00001000
+00:00:02.931878 SUP: seg #1: R X 0x00001000 LB 0x00109000
+00:00:02.931882 SUP: seg #2: R   0x0010a000 LB 0x0004a000
+00:00:02.931884 SUP: seg #3: RW  0x00154000 LB 0x00013000
+00:00:02.931887 SUP: seg #4: R   0x00167000 LB 0x0000e000
+00:00:02.931889 SUP: seg #5: RW  0x00175000 LB 0x00003000
+00:00:02.931891 SUP: seg #6: R   0x00178000 LB 0x0000b000
+00:00:02.931893 SUP: seg #7: RWX 0x00183000 LB 0x00002000
+00:00:02.931896 SUP: seg #8: R   0x00185000 LB 0x00007000
+00:00:02.935364 SUP: Loaded VMMR0.r0 (C:\Program Files\Oracle\VirtualBox\VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:02.935388 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:02.935391 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VMMR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:02.936332 Guest OS type: 'Ubuntu_64'
+00:00:02.936764 fHMForced=true - No raw-mode support in this build!
+00:00:02.937762 VMSetError: F:\tinderbox\win-6.1\src\VBox\Main\src-client\ConsoleImpl2.cpp(1963) int __cdecl Console::i_configConstructorInner(struct UVM *,struct VM *,class util::AutoWriteLock *); rc=VERR_NOT_FOUND
+00:00:02.937766 VMSetError: Implementation of the USB 2.0 controller not found!
+00:00:02.937767 Because the USB 2.0 controller state is part of the saved VM state, the VM cannot be started. To fix this problem, either install the 'Oracle VM VirtualBox Extension Pack' or disable USB 2.0 support in the VM settings.
+00:00:02.937767 Note! This error could also mean that an incompatible version of the 'Oracle VM VirtualBox Extension Pack' is installed
+00:00:02.937898 Constructor failed with rc=VERR_NOT_FOUND pfnCFGMConstructor=00007ffbf4ce2490
+00:00:02.938385 ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={Implementation of the USB 2.0 controller not found!
+00:00:02.938408 Because the USB 2.0 controller state is part of the saved VM state, the VM cannot be started. To fix this problem, either install the 'Oracle VM VirtualBox Extension Pack' or disable USB 2.0 support in the VM settings.
+00:00:02.938408 Note! This error could also mean that an incompatible version of the 'Oracle VM VirtualBox Extension Pack' is installed (VERR_NOT_FOUND)}, preserve=false aResultDetail=-78
+00:00:02.938506 Console: Machine state changed to 'PoweredOff'
+00:00:02.940550 Power up failed (vrc=VERR_NOT_FOUND, rc=E_FAIL (0X80004005))
+00:00:03.440353 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:03.440384 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={4680b2de-8690-11e9-b83d-5719e53cf1de} aComponent={DisplayWrap} aText={The console is not powered up (Display::setVideoModeHint)}, preserve=false aResultDetail=0
+00:00:03.440533 GUI: Aborting startup due to power up progress issue detected...
