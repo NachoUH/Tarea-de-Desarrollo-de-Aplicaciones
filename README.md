@@ -1,5 +1,5 @@
 # Tarea-de-Desarrollo-de-Aplicaciones
-## Documento para la creación de RESTful API ##
+## Documentación para la creación de RESTful API ##
 
 **Profesor:**  <br>
 Cristian Paz Campos Aguero
